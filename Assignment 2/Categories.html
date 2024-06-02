@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            background-color: #ddd;
+        }
+        nav a:hover {
+            background-color: #bbb;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .category {
+            margin-bottom: 20px;
+        }
+        .category h2 {
+            color: #333;
+        }
+        .category ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .category li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Book Categories</h1>
+</header>
+
+<nav>
+    <a href="#fiction">Fiction</a>
+    <a href="#non-fiction">Non-Fiction</a>
+    <a href="#science-fiction">Science Fiction</a>
+    <a href="#mystery">Mystery</a>
+    <a href="#fantasy">Fantasy</a>
+</nav>
+
+<div class="container">
+    <div id="fiction" class="category">
+        <h2>Fiction</h2>
+        <ul>
+            <li>The Great Gatsby</li>
+            <li>To Kill a Mockingbird</li>
+            <li>1984</li>
+        </ul>
+    </div>
+
+    <div id="non-fiction" class="category">
+        <h2>Non-Fiction</h2>
+        <ul>
+            <li>Becoming by Michelle Obama</li>
+            <li>The Power of Habit by Charles Duhigg</li>
+            <li>Sapiens: A Brief History of Humankind by Yuval Noah Harari</li>
+        </ul>
+    </div>
+
+    <div id="science-fiction" class="category">
+        <h2>Science Fiction</h2>
+        <ul>
+            <li>Dune by Frank Herbert</li>
+            <li>The Martian by Andy Weir</li>
+            <li>Neuromancer by William Gibson</li>
+        </ul>
+    </div>
+
+    <div id="mystery" class="category">
+        <h2>Mystery</h2>
+        <ul>
+            <li>The Girl with the Dragon Tattoo by Stieg Larsson</li>
+            <li>Gone Girl by Gillian Flynn</li>
+            <li>And Then There Were None by Agatha Christie</li>
+        </ul>
+    </div>
+    <div id="fantasy" class="category">
+        <h2>Fantasy</h2>
+        <ul>
+            <li>The Lord of the Rings by J.R.R. Tolkien</li>
+            <li>Harry Potter series by J.K. Rowling</li>
+            <li>A Song of Ice and Fire series by George R.R. Martin</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
